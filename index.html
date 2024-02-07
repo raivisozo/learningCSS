@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width"/>
+    <title>Revision</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"/>
+  </head>
+  <body>
+    <h1>THE BIG REVISION</h1>
+    <nav>
+        <ul>
+            <li><a href="#text-directions">Text directions</a></li>
+            <li><a href="#overflow">Overflow</a></li>
+            <li><a href="#backgrounds-borders">Backgrounds and borders</a></li>
+            <li><a href="#formating-tables">Formating tables</a></li>
+        </ul>
+    </nav>
+    <h2>THE PURPOSE OF THIS PAGE</h2>
+    <p>I will use this page as a place where I can play around with new things that I've just learned. Mostly consisting of CSS, atleast for now.</p>
+    <section id="text-directions">
+     <h2 class="info-headers">Text directions</h2>
+     <div class="vertical">
+         <p>This text is Vertical</p>
+         <p><strong>Why would you do this?</strong> It could be used for artistic (autistic) purposes.</p>
+     </div>
+    </section>
+    <section id="overflow">
+      <h2 class="info-headers">Overflow</h2>
+      <div class="text-abv-box">
+        <table>
+          <tr>
+            <td>Hidden</td>
+            <td>Scroll</td>
+            <td>Scroll-y</td>
+            <td>Auto</td>
+          </tr>  
+        </table>
+      </div>
+      <div class="standnext">
+         <p id="hidden" class="box-overflow">This text does not fit in the box. Why is that? If the height is set to a specific px, it will not adapt to the changes and stay the height that the author has set. Therfore you get overflow.</p>
+         <p id="scroll" class="box-overflow">This text does not fit in the box. Why is that? If the height is set to a specific px, it will not adapt to the changes and stay the height that the author has set. Therfore you get overflow.</p>
+         <p id="scrolly" class="box-overflow">This text does not fit in the box. Why is that? If the height is set to a specific px, it will not adapt to the changes and stay the height that the author has set. Therfore you get overflow.</p>
+         <p id="auto" class="box-overflow">This text does not fit in the box. Why is that? If the height is set to a specific px, it will not adapt to the changes and stay the height that the author has set. Therfore you get overflow.</p>
+      </div>
+    </section>
+    <section id="backgrounds-borders">
+      <h2 class="info-headers">Backgrounds and borders</h2>
+      <div class="standnext">
+        <div class="box color"><p>This box has a gray background color.</p></div>
+        <div class="box image"><p>This box has an image as a background.</p></div>
+        <div class="box imagerepeat"><p>This box has an image thats repeated as a background and a background color.</p></div>
+      </div>
+    </section>
+    <section id="formating-tables">
+      <h1 class="info-headers">Formating Tables</h1>
+      <div class="formtables">
+       <table>
+         <caption>The big revision table</caption>
+         <thead>
+           <tr>
+             <th>Months</th>
+             <th>Compleated days</th>
+             <th>Missed days</th>
+             <th>Full houses</th>
+             <th>Notes</th>
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+             <th>January</th>
+             <td>18</td>
+             <td>13</td>
+             <td>7</td>
+             <td></td>
+           </tr>
+           <tr>
+             <th>February</th>
+             <td>4</td>
+             <td>1</td>
+             <td>3</td>
+             <td>This table was made on: 06/02/2024</td>
+            </tr>
+          </tbody>
+          <tfoot>
+           <tr>
+             <th colspan="3">Total full houses</th>
+             <td>10</td>
+             <td></td>
+           </tr>
+          </tfoot>
+       </table>
+      </div>
+    </section>
+
+  </body>
+</html>
